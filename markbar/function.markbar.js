@@ -1,1 +1,0 @@
-$(function(){$('textarea').markbar();});

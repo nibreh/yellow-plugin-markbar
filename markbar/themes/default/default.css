@@ -10,7 +10,7 @@
 	width: 30px;
 	height: 24px;
 	margin: 0 3px 3px 0;
-	background: url('/media/images/markbar-icons.png'); /*must be in your media folder*/
+	background: url('markbar-icons.png');
 	text-indent: -9999px;
 	border: #dddddd solid 1px;
 	border-radius: 2px;
