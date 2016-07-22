@@ -1,16 +1,14 @@
-# Markbar Plugin for Yellow
-
-[Yellow](https://github.com/datenstrom) is for people who make websites. A flat-file CMS and a static site generator. 
+# Markbar Plugin 0.6.3
  
-This plugin uses [Markbar by reinink](https://github.com/reinink/jQuery.Markbar)
+This plugin uses [Markbar by reinink](https://github.com/reinink/jQuery.Markbar) - *A simple jQuery plugin that adds a WYSIWYG style toolbar to Markdown enabled textareas*
 
-![Screenshot](https://cloud.githubusercontent.com/assets/7314006/9836901/5bedad82-5a2c-11e5-8619-35bc6428eb28.png)
+![screenshot](https://raw.githubusercontent.com/nibreh/yellow-plugin-markbar/master/markbar-screenshot.png)
 
 ## How to install markbar?
 
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [yellow-markbar.zip](https://github.com/nibreh/yellow-markbar/archive/master.zip)
-3. Add the entire folder `markbar` in `system/plugins` folder
-4. Add [markbar.php](https://raw.githubusercontent.com/nibreh/yellow-markbar/master/markbar.php) in `system/plugins` folder
+3. Copy folder `markbar` in `system/plugins` folder
+4. Copy [markbar.php](https://raw.githubusercontent.com/nibreh/yellow-markbar/master/markbar.php) in `system/plugins` folder
 
-To uninstall delete the plugin files.
+To uninstall delete the plugin files.
