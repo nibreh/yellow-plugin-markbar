@@ -2,6 +2,8 @@
 // jQuery.Markbar by reinink - https://github.com/reinink/jQuery.Markbar
 // This file may be used and distributed under the terms of the public license.
 
+// Markbar plugin by nibreh, thanks to Datenstrom
+// Markbar is a markdown toolbar by Reinink - https://github.com/reinink/jQuery.Markbar
 class YellowMarkbar
 {
 	const Version = "0.0.3";
