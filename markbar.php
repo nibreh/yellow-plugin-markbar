@@ -6,7 +6,7 @@
 // Markbar is a markdown toolbar by Reinink - https://github.com/reinink/jQuery.Markbar
 class YellowMarkbar
 {
-	const Version = "0.0.3";
+	const Version = "0.6.3";
 	var $yellow;		//access to API
 
 	// Handle initialisation
