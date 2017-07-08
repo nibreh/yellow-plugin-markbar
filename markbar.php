@@ -6,7 +6,7 @@
 // Markbar is a markdown toolbar by Reinink - https://github.com/reinink/jQuery.Markbar
 class YellowMarkbar
 {
-	const VERSION = "0.6.3";
+	const VERSION = "0.7.1";
 	var $yellow;		//access to API
 
 	// Handle initialisation
@@ -23,7 +23,7 @@ class YellowMarkbar
 	function onExtra($name)
 	{
 		$output = null;
-		if($name=="header" && $this->yellow->getRequestHandler()=="webinterface")
+		if($name=="header" && $this->yellow->getRequestHandler()=="edit")
 		{
 			$pluginLocation = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation");
 			$jqueryCdn = $this->yellow->config->get("jqueryCdn");
