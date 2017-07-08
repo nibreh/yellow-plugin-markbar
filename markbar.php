@@ -15,7 +15,7 @@ class YellowMarkbar
 		$this->yellow = $yellow;
 		if(!$this->yellow->config->isExisting("jqueryCdn"))
 		{
-			$this->yellow->config->setDefault("jqueryCdn", "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/");
+			$this->yellow->config->setDefault("jqueryCdn", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js");
 		}
 	}
 
@@ -27,7 +27,7 @@ class YellowMarkbar
 		{
 			$pluginLocation = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation");
 			$jqueryCdn = $this->yellow->config->get("jqueryCdn");
-			$output .= "<script type=\"text/javascript\" src=\"{$jqueryCdn}jquery.min.js\"></script>\n";
+			$output .= "<script type=\"text/javascript\" src=\"{$jqueryCdn}\"></script>\n";
 			$output .= "<script type=\"text/javascript\" src=\"{$pluginLocation}markbar/jquery.markbar.js\"></script>\n";
 			$output .= "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$pluginLocation}markbar/themes/default/default.css\">\n";
 			$output .= "<script type=\"text/javascript\">\n";
