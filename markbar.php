@@ -15,7 +15,7 @@ class YellowMarkbar
 		$this->yellow = $yellow;
 		if(!$this->yellow->config->isExisting("jqueryCdn"))
 		{
-			$this->yellow->config->setDefault("jqueryCdn", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js");
+			$this->yellow->config->setDefault("jqueryCdn", "https://code.jquery.com/jquery-3.2.1.min.js");
 		}
 	}
 
