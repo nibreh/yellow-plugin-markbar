@@ -12,4 +12,4 @@ This plugin uses [Markbar by reinink](https://github.com/reinink/jQuery.Markbar)
 
 To uninstall delete the plugin files.
 
-By default, markbar use **Jquery 3.2.1** (https://code.jquery.com/jquery-3.2.1.min.js). You can change your version in `config.ini`. 
+By default, markbar comes with **Jquery 3.2.1** (https://code.jquery.com/jquery-3.2.1.min.js). You can change your version in `config.ini`. 
