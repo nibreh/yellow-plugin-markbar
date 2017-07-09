@@ -25,11 +25,11 @@ class YellowMarkbar
 		$output = null;
 		if($name=="header" && $this->yellow->getRequestHandler()=="edit")
 		{
-			$mediaLocation = $this->yellow->config->get("serverBase").$this->yellow->config->get("mediaLocation");
+			$pluginLocation = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation");
 			$jqueryCdn = $this->yellow->config->get("jqueryCdn");
 			$output .= "<script type=\"text/javascript\" src=\"{$jqueryCdn}\"></script>\n";
-			$output .= "<script type=\"text/javascript\" src=\"{$mediaLocation}markbar/jquery.markbar.js\"></script>\n";
-			$output .= "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$mediaLocation}markbar/themes/default/default.css\">\n";
+			$output .= "<script type=\"text/javascript\" src=\"{$pluginLocation}markbar/jquery.markbar.js\"></script>\n";
+			$output .= "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$pluginLocation}markbar/themes/default/default.css\">\n";
 			$output .= "<script type=\"text/javascript\">\n";
 			$output .= "\$(function(){\$('textarea').markbar();});";
 			$output .= "</script>\n";
