@@ -1,3 +1,9 @@
+# DEPRECATED
+
+The new editor is available for Yellow
+
+[Take a look here](https://github.com/datenstrom/yellow/issues/103#issuecomment-383377763)
+
 # Markbar Plugin 0.7.1
  
 This plugin uses [Markbar by reinink](https://github.com/reinink/jQuery.Markbar) - *A simple jQuery plugin that adds a WYSIWYG style toolbar to Markdown enabled textareas*
