@@ -1,16 +1,16 @@
-# DEPRECATED
+# OBSOLETE
 
-The new editor is available for Yellow
+New editor is available for Yellow
 
 [Take a look here](https://github.com/datenstrom/yellow/issues/103#issuecomment-383377763)
 
-# Markbar Plugin 0.7.1
+## Markbar Plugin 0.7.1
  
 This plugin uses [Markbar by reinink](https://github.com/reinink/jQuery.Markbar) - *A simple jQuery plugin that adds a WYSIWYG style toolbar to Markdown enabled textareas*
 
 ![screenshot](https://raw.githubusercontent.com/nibreh/yellow-plugin-markbar/master/markbar-screenshot.png)
 
-## How to install markbar?
+### How to install markbar?
 
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
 2. Download [master.zip](https://github.com/nibreh/yellow-plugin-markbar/archive/master.zip). If you are using Safari, right click and select 'Download file as'.
