@@ -1,4 +1,4 @@
-# OBSOLETE
+# Obsolete
 
 New editor is available for Yellow
 
